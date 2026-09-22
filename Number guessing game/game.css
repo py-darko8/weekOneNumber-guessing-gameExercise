@@ -1,0 +1,58 @@
+body {
+display: flex;               /* Turns body context into a flexible alignment grid space */
+justify-content: center;     /* Horizontally aligns child components exactly in center track */
+align-items: center;         /* Vertically aligns child elements perfectly to screen center axis */
+height: 100vh;               /* Forces element height to consume exactly 100% viewport space */
+margin: 0;                   /* Strips native browser padding space overrides completely */
+background-color: #0f172a;   /* Deep dark premium layout theme background hex code representation */
+}
+.game-container {
+background-color: #1e293b;   /* Elevated inner layer backdrop card tint shading */
+padding: 30px;               /* Internal empty margins buffer boundary spacing from component frame */
+border-radius: 12px;         /* Softens layout card bounding corners to curvature aesthetic values */
+width: 380px;                /* Enforces static structural layout width limits */
+box-shadow: 0 10px 25px rgba(0,0,0,0.4); /* Layers drop dimensional light shadows properties */
+}
+
+.game-title {
+font-size: 2rem;             
+margin-top: 0;               
+margin-bottom: 10px;         
+color: #38bdf8;              
+}
+
+.game-instruction {
+font-size: 1rem;             /* Retains uniform primary reading baseline font heights definitions */
+color: #94a3b8;              /* Applies soft slate text hues to structure high grade layout visual contrast */
+margin-bottom: 25px;         /* Pushes following input nodes down away by an explicit margin spacer */
+}
+
+.guess-input {
+width: 80px; height: 50px;    /* Constrains entry node box tracking layout square geometries metrics */
+font-size: 1.5rem;           /* Enlarges typed string digits scaling layout metrics for accessibility */
+text-align: center;          /* Ensures typing characters align automatically centered horizontally */
+background-color: #334155;   /* Dark complementary panel theme code layer styling configuration */
+border: 2px solid #475569;   /* Default unselected layout outer container boundary frame lining rules */
+border-radius: 8px;          /* Maintains unified card system corner rounding radius standards */
+color: #ffffff;              /* Renders target internal values text characters clear white */
+outline: none;               /* Suppresses native basic generic web browser highlight frame filters */
+margin-bottom: 20px;
+}
+.guess-input:focus {
+border-color: #38bdf8;       /* Shifts outer border edge lines color code directly when active cursor focuses */
+}
+
+.action-btn {
+display: block;              /* Forces element block mechanics to cleanly claim a solid dedicated line */
+width: 100%;                 /* Forces card scaling to reach across full width bounds inside card walls */
+padding: 14px;               /* Increases interior height target layout buffer bounds sizes for touchability */
+background-color: #38bdf8;   /* High visual priority sky blue action button highlighting color fill */
+color: #0f172a;              /* Enforces deep contrast dark charcoal typography text reading ink */
+font-weight: bold;           /* Accentuates textual elements structure outlines cleanly for emphasis */
+border: none;                /* Disables low-grade stock gray native operating browser line borders */
+border-radius: 8px;          /* Aligns rounded corner parameters uniformly to system theme guidelines */
+cursor: pointer;             /* Modifies hardware cursor pointer mapping into interactive hand symbols */
+}
+.action-btn:hover {
+background-color: #0ea5e9;   /* Gently shifts background hue shades deeper when mouse vectors intersect bounds */
+}
